@@ -1,5 +1,6 @@
 #include "Nylon/IO.hpp"
 #include "Nylon/Allocator.hpp"
+#include "Nylon/Args.hpp"
 
 NLAPI nl::i32 NlMain(void* multiboot, nl::u32 magicNumber) {
     nl::u32* memory = (nl::u32*)(((nl::size_t)multiboot) + 8);
